@@ -3,8 +3,6 @@ const prodQty = document.querySelector('.prod-qty');
 const inputQty = document.querySelector('input[name=product-qty]');
 const orderForm = document.querySelector('.add-order-form');
 
-
-
 const renderProdList = (data) => {
     let html = '';
     data.data.forEach(elem => {
