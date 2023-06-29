@@ -1,0 +1,21 @@
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.content .prod-qty {
+  display: flex;
+  height: 25px;
+}
+.content .prod-qty input {
+  width: 30px;
+  margin: 0 10px;
+  text-align: center;
+}
+.content .prod-qty .plus,
+.content .prod-qty .minus {
+  border: 1px solid black;
+  width: 25px;
+  border-radius: 50%;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
